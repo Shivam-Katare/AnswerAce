@@ -1,0 +1,46 @@
+.about-us {
+  font-size: 17px;
+  padding: 18px 34px;
+  text-align: justify;
+  font-family: emoji;
+}
+
+p.para-1 {
+  background: #3d4040;
+  padding: 29px 25px;
+  margin-bottom: 37px;
+}
+
+p.para-2 {
+  background: #df831f;
+  padding: 29px 25px;
+  margin-bottom: 37px;
+  color: #f4f4f4;
+  font-weight: 900;
+}
+
+p.para-3 {
+  background: #bebebe;
+  padding: 29px 25px;
+  margin-bottom: 37px;
+  color: black;
+  font-weight: 900;
+}
+
+p.para-4 {
+  background: #3d4040;
+  padding: 29px 25px;
+  margin-bottom: 37px;
+}
+
+p.para-5 {
+  background: #2eff27;
+  padding: 29px 25px;
+  margin-bottom: 37px;
+  color: black;
+  font-weight: 900;
+}
+
+.social-icons {
+  color: white;
+}
