@@ -21,7 +21,7 @@ const Modal = ({ showModal, toggle }) => {
 
   return (
     <Fragment>
-      <div className="digits-delight-modal">
+      <div className="answer-ace-modal">
         <MdClose className="close-icon" onClick={toggle} />
         <div className="content">
           <h1 className="text">AnswerAce</h1>
@@ -41,7 +41,7 @@ const Modal = ({ showModal, toggle }) => {
           </div>
         </div>
       </div>
-      <div className="digits-delight-backdrop" onClick={toggle} />
+      <div className="answer-ace-backdrop" onClick={toggle} />
     </Fragment>
   );
 };

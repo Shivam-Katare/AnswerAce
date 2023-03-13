@@ -103,60 +103,12 @@
   transition: all .5s ease-in-out;
 }
 
-.input-api-key::-webkit-input-placeholder {
-  color: transparent;
-}
-
-.input-api-key::-moz-placeholder {
-  color: transparent;
-}
-
-.input-api-key:-ms-input-placeholder {
-  color: transparent;
-}
-
-.input-api-key::-ms-input-placeholder {
-  color: transparent;
-}
-
 .input-api-key::placeholder {
   color: transparent;
 }
 
-.input-api-key:focus::-webkit-input-placeholder {
-  color: rgb(131, 128, 128);
-}
-
-.input-api-key:focus::-moz-placeholder {
-  color: rgb(131, 128, 128);
-}
-
-.input-api-key:focus:-ms-input-placeholder {
-  color: rgb(131, 128, 128);
-}
-
-.input-api-key:focus::-ms-input-placeholder {
-  color: rgb(131, 128, 128);
-}
-
 .input-api-key:focus::placeholder {
   color: rgb(131, 128, 128);
-}
-
-.input-api-key:not(:-moz-placeholder-shown) {
-  background-color: #fff;
-  border: 1px solid rgb(98, 0, 255);
-  width: 290px;
-  cursor: none;
-  padding: 18px 16px 18px 40px;
-}
-
-.input-api-key:not(:-ms-input-placeholder) {
-  background-color: #fff;
-  border: 1px solid rgb(98, 0, 255);
-  width: 290px;
-  cursor: none;
-  padding: 18px 16px 18px 40px;
 }
 
 .input-api-key:focus,
@@ -188,20 +140,6 @@
   transform: rotate(360deg);
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
-}
-
-.input-api-key:not(:-moz-placeholder-shown)+.icon {
-  z-index: 0;
-  background-color: transparent;
-  border: none;
-
-}
-
-.input-api-key:not(:-ms-input-placeholder)+.icon {
-  z-index: 0;
-  background-color: transparent;
-  border: none;
-
 }
 
 .input-api-key:focus+.icon,

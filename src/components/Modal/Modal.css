@@ -1,4 +1,4 @@
-.digits-delight-modal {
+.answer-ace-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11,7 +11,7 @@
   animation: modalApear 0.3s ease-in-out;
 }
 
-.digits-delight-modal .close-icon {
+.answer-ace-modal .close-icon {
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
@@ -23,45 +23,45 @@
 }
 
 @media screen and (max-width: 768px) {
-  .digits-delight-modal .close-icon {
+  .answer-ace-modal .close-icon {
     right: 1rem;
     top: 1rem;
     width: 30px;
   }
 }
 
-.digits-delight-modal .content {
+.answer-ace-modal .content {
   margin: 0 2rem;
   padding: 2rem;
   color: black;
 }
 
-.digits-delight-modal .content .text {
+.answer-ace-modal .content .text {
   text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
 }
 
-.digits-delight-modal .content p {
+.answer-ace-modal .content p {
   margin: 0.6rem 0 1rem 0;
   text-align: center;
 }
 
-.digits-delight-modal .content .guide-image {
+.answer-ace-modal .content .guide-image {
   display: block;
   margin: 0 auto;
   max-width: 70%;
   height: auto;
 }
 
-.digits-delight-modal .content .button-section {
+.answer-ace-modal .content .button-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 32px;
 }
 
-.digits-delight-modal .content .button-section button {
+.answer-ace-modal .content .button-section button {
   padding: 0.5rem 2rem;
   font-size: 1rem;
   border-radius: 20px;
@@ -72,13 +72,13 @@
   font-weight: bold;
 }
 
-.digits-delight-modal .content .button-section button:disabled {
+.answer-ace-modal .content .button-section button:disabled {
   background-color: rgba(81, 91, 212, 0.5);
   pointer-events: none;
 }
 
 @media screen and (max-width: 768px) {
-  .digits-delight-modal .content .button-section {
+  .answer-ace-modal .content .button-section {
     padding: 0;
     margin-top: 10px;
   }
@@ -97,12 +97,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .digits-delight-modal {
+  .answer-ace-modal {
     width: calc(100vw - 20px);
   }
 }
 
-.digits-delight-backdrop {
+.answer-ace-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -112,7 +112,7 @@
   z-index: 10;
 }
 
-.digits-delight-modal {
+.answer-ace-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -125,7 +125,7 @@
   animation: modalApear 0.3s ease-in-out;
 }
 
-.digits-delight-modal .close-icon {
+.answer-ace-modal .close-icon {
   position: absolute;
   right: 1.5rem;
   top: 1.5rem;
@@ -136,44 +136,44 @@
 }
 
 @media screen and (max-width: 768px) {
-  .digits-delight-modal .close-icon {
+  .answer-ace-modal .close-icon {
     right: 1rem;
     top: 1rem;
     width: 30px;
   }
 }
 
-.digits-delight-modal .content {
+.answer-ace-modal .content {
   margin: 0 2rem;
   padding: 2rem;
 }
 
-.digits-delight-modal .content .text {
+.answer-ace-modal .content .text {
   text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
 }
 
-.digits-delight-modal .content p {
+.answer-ace-modal .content p {
   margin: 0.6rem 0 1rem 0;
   text-align: center;
 }
 
-.digits-delight-modal .content .guide-image {
+.answer-ace-modal .content .guide-image {
   display: block;
   margin: 0 auto;
   max-width: 70%;
   height: auto;
 }
 
-.digits-delight-modal .content .button-section {
+.answer-ace-modal .content .button-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 32px;
 }
 
-.digits-delight-modal .content .button-section button {
+.answer-ace-modal .content .button-section button {
   display: inline-block;
   outline: 0;
   border: 0;
@@ -190,23 +190,23 @@
   transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
 
-.digits-delight-modal .content .button-section button :hover {
+.answer-ace-modal .content .button-section button :hover {
   box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
   transform: translateY(-2px);
 }
 
-.digits-delight-modal .content .button-section button:active {
+.answer-ace-modal .content .button-section button:active {
   box-shadow: inset 0px 3px 7px #3c4fe0;
   transform: translateY(2px);
 }
 
-.digits-delight-modal .content .button-section button:disabled {
+.answer-ace-modal .content .button-section button:disabled {
   background-color: rgba(81, 91, 212, 0.5);
   pointer-events: none;
 }
 
 @media screen and (max-width: 768px) {
-  .digits-delight-modal .content .button-section {
+  .answer-ace-modal .content .button-section {
     padding: 0;
     margin-top: 10px;
   }
@@ -225,7 +225,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .digits-delight-modal {
+  .answer-ace-modal {
     width: calc(100vw - 20px);
   }
 }
